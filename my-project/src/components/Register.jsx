@@ -3,7 +3,7 @@ import { ButtonA } from "./Button";
 
 const RegisterS = () => {
     return (
-        <div className="w-1/4 px-7 pb-12 pt-3 bg-white">
+        <div className="w-1/3 px-9 py-14 bg-white rounded-r-md">
             <h1 className="text-3xl text-sky-600 font-bold mb-4">REGISTER FORM</h1>
             <form action="" className=" grid grid-cols-2 gap-2 text-sky-700">
                 <div className="formItem mb-4">
