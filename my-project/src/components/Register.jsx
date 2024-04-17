@@ -3,9 +3,9 @@ import { ButtonA } from "./Button";
 
 const RegisterS = () => {
     return (
-        <div className="w-1/3 px-9 py-14 bg-white rounded-r-md">
+        <div className="w-1/3 px-9 py-14 bg-white rounded-r-lg">
             <h1 className="text-3xl text-sky-600 font-bold mb-4">REGISTER FORM</h1>
-            <form action="" className=" grid grid-cols-2 gap-2 text-sky-700">
+            <form action="" className=" grid grid-cols-2 gap-2 text-gray-700">
                 <div className="formItem mb-4">
                     <label htmlFor="firstName">First Name</label>
                     <input type="text" id="firstName" className="border-2 w-full  py-1" />
@@ -33,7 +33,7 @@ const RegisterS = () => {
 
                 <div className="formItem col-span-2">
                     <input type="checkbox" id="terms" />
-                    <label htmlFor="terms" className="ml-2">I agree to the <a href="#">Terms and Conditions</a></label>
+                    <label htmlFor="terms" className="ml-2">I agree to the <a href="#" className="text-sky-600 underline">Terms and Conditions</a></label>
                 </div>
 
 
