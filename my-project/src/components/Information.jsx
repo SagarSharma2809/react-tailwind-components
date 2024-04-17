@@ -2,7 +2,7 @@ import { ButtonA } from "./Button";
 
 const InformationS = () => {
     return (
-        <div className="bg-sky-700 w-1/4  px-6 py-3 text-white text-sm">
+        <div className="bg-sky-700 w-1/3 px-9 py-14 text-white rounded-l-lg">
 
             <h1 className="text-3xl font-bold mb-4">INFORMATION</h1>
             <p className="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut laudantium ullam adipisci, aliquid est magnam eligendi dolores necessitatibus. Dolorem totam quae veniam</p>
